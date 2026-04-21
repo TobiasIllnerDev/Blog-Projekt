@@ -1,7 +1,27 @@
+.main_section {
+    width: 100%;
+    padding: 0px 120px;
+}
+
 .div_faq, .div_contact {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+
+.div_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.details_container {
+    background-color: var(--bg-color-yellow);
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
 }
