@@ -32,12 +32,12 @@ h4 {
     font-weight: 600;
 }
 
-p {
+.global_p {
     color: var(--bg-color-p-text);
     font-size: 24px;
     font-family: 'Palanquin';
     font-weight: 400;
-}
+} 
 
 .nav-bar {
     background-color: var(--bg-color-green);
