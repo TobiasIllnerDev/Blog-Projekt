@@ -11,3 +11,17 @@
     font-weight: 400;
 } 
 
+ .author-name {
+    color: var(--bg-color-text-color);
+    font-size: 18px;
+    font-family: 'Arima';
+    font-weight: 700;
+ }
+
+.author-subheadline {
+    color: var(--bg-color-text-color);
+    font-size: 18px;
+    font-family: 'Arima';
+    font-weight: 700;
+}
+
