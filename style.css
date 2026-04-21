@@ -3,7 +3,8 @@
     padding: 0px 120px;
 }
 
-.div_faq, .div_contact {
+.div_faq,
+.div_contact {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -25,3 +26,43 @@
     padding: 8px;
     width: 100%;
 }
+
+header {
+    position: relative;
+    height: 500px;
+}
+
+.yellow-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-text {
+    position: absolute;
+}
+h1 {
+    position: absolute;
+}
+
+.circle-animation {
+    position: absolute;
+}
+
+.flag-fixed {
+    position: absolute;
+}
+
+.header-text {
+  font-family: 'Palanquin';
+  font-weight: 500;
+  font-size: 1.75rem;
+  color: var(--bg-color-text-color);
+}
+
