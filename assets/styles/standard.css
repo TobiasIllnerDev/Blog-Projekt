@@ -32,6 +32,13 @@ h4 {
     font-weight: 600;
 }
 
+.article-heading-green-p {
+    color: var(--bg-color-green);
+    font-size: 40px;
+    font-family: 'Palanquin';
+    font-weight: 600;
+}
+
 .global_p {
     color: var(--bg-color-p-text);
     font-size: 24px;
