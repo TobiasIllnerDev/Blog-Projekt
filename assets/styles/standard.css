@@ -18,6 +18,13 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    color: var( --bg-color-yellow);
+    font-size: 64px;
+    font-family: 'Arima';
+    font-weight: 700;
+}
+
 h4 {
     color: var(--bg-color-text-color);
     font-size: 32px;
