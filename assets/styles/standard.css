@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-    color: var( --bg-color-yellow);
+    color: var(--bg-color-yellow);
     font-size: 64px;
     font-family: 'Arima';
     font-weight: 700;
@@ -59,11 +59,39 @@ h4 {
 
 footer {
     background-color: var(--bg-color-green);
-    color: var(--bg-color-white);
-    font-size: 1.3rem;
-
+    padding: 65px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.footer-text-content {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.copyright-content {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
 .social-media-icons {
     height: 32px;
     width: auto;
+    display: flex;
+    gap: 16px;
+}
+
+footer a,
+footer p {
+    color: var(--bg-color-white);
+    font-size: 1.3rem;
+    font-family: 'Palanquin';
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
 }
