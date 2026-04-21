@@ -44,7 +44,7 @@ h4 {
     font-size: 24px;
     font-family: 'Palanquin';
     font-weight: 400;
-} 
+}
 
 .nav-bar {
     background-color: var(--bg-color-green);
@@ -67,6 +67,7 @@ h4 {
 footer {
     background-color: var(--bg-color-green);
     padding: 65px 240px;
+    font-size: 1.3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,11 +95,11 @@ footer {
 footer a,
 footer p {
     color: var(--bg-color-white);
-    font-size: 1.3rem;
     font-family: 'Palanquin';
     font-weight: 400;
 }
 
 footer a {
     text-decoration: none;
+    font-size: 1rem;
 }
