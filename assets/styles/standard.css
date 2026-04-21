@@ -4,6 +4,27 @@
     scroll-behavior: smooth;
 }
 
+h1 {
+    color: var(--bg-color-text-color);
+    font-size: 60px;
+    font-family: 'Arima';
+    font-weight: bold;
+}
+
+h2 {
+    color: var(--bg-color-green);
+    font-size: 52px;
+    font-family: 'Arima';
+    font-weight: bold;
+}
+
+h4 {
+    color: var(--bg-color-text-color);
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+}
+
 .nav-bar {
     background-color: var(--bg-color-green);
     padding: 50px 0 50px 250px;
