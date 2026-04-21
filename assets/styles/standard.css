@@ -3,3 +3,29 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+.nav-bar {
+    background-color: var(--bg-color-green);
+    padding: 50px 0 50px 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    color: var(--bg-color-white);
+}
+
+.nav-bar>a {
+    color: var(--bg-color-white);
+    text-decoration: none;
+    font-family: 'Arima';
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: var(--bg-color-green);
+}
+.social-media-icons {
+    height: 32px;
+    width: auto;
+}
