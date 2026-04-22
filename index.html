@@ -162,11 +162,13 @@
 
               <div class="contact_button_section">
                 <div class="checkbox_group">
-                  <input type="checkbox" id="privacy" />
-                  <label for="privacy">
+                  <input type="checkbox" id="privacy" required />
+                  <label for="privacy" class="custom_checkbox">
+                    <span class="box"></span>
                     I’ve read the <span>privacy policy</span> and agree to the
                     processing of my data as outlined.
                   </label>
+                  <p class="error_text">Please accept the privacy policy.</p>
                 </div>
                 <button type="submit" class="send_btn">Send</button>
               </div>
