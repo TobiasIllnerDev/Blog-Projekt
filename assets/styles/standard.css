@@ -31,6 +31,7 @@ h4 {
     font-size: 32px;
     text-align: center;
     font-weight: 600;
+    font-family: 'Arima';
 }
 
 .article-heading-green-p {
@@ -45,6 +46,15 @@ h4 {
     font-size: 24px;
     font-family: 'Palanquin';
     font-weight: 400;
+    line-height: 120%;
+}
+
+.bold-text {
+    color: var(--bg-color-p-text);
+    font-size: 24px;
+    font-family: 'Palanquin';
+    font-weight: 600;
+
 }
 
 .nav-bar {
@@ -63,6 +73,47 @@ h4 {
     font-family: 'Arima';
     font-weight: 700;
     font-size: 1.5rem;
+}
+.pro-tipp-card {
+    position: relative;
+    margin: auto;
+    width: fit-content;
+    list-style-position: inside;
+    padding: 90px 150px;
+    
+}
+.pro-tipp-text {
+    font-size: 1.75rem;
+    font-family: 'Palanquin';
+    font-weight: 700;
+    color: var(--bg-color-yellow);
+}
+.pro-tipp-button {
+    border-radius: 10px;
+    background-color: var(--bg-color-green);
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(-20%, -70%) rotate(-14deg);
+}
+.pro-tipp-content {
+    background-color: var(--bg-color-pro-tipp);
+    border-radius: 30px;
+    padding: 26px 20px 24px 24px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 1000px;
+}
+
+.pro-tipp-link {
+    color: var(--bg-color-green);
+    font-weight: 700;
 }
 
 footer {

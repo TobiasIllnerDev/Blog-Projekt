@@ -1,0 +1,9 @@
+.ordered-list {
+    padding: 90px 150px;
+    line-height: 190%;
+}
+
+.ordered-list>p {
+    text-align: center;
+    padding-bottom: 36px;
+}
