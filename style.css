@@ -56,16 +56,16 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 120px;
 }
 
 .div_faq {
     gap: 44px;
-    padding-bottom: 20px;
+    padding-bottom: 48px;
 }
 
 .div_contact {
-    padding-bottom: 20px;
+    padding-bottom: 126px;
     gap: 58px;
 }
 
