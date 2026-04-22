@@ -46,6 +46,7 @@ h4 {
     font-size: 24px;
     font-family: 'Palanquin';
     font-weight: 400;
+    line-height: 120%;
 }
 
 .bold-text {
@@ -78,8 +79,7 @@ h4 {
     margin: auto;
     width: fit-content;
     list-style-position: inside;
-    line-height: 180%;
-    padding: 150px;
+    padding: 90px 150px;
     
 }
 .pro-tipp-text {
@@ -91,7 +91,7 @@ h4 {
 .pro-tipp-button {
     border-radius: 10px;
     background-color: var(--bg-color-green);
-    padding: 20px;
+    padding: 10px;
     width: 200px;
     text-align: center;
     display: flex;
