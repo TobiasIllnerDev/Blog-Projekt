@@ -45,7 +45,11 @@ h1 {
     width: 100%;
     padding: 0px 120px;
 }
+/* Highlights Bereich */
 
+
+
+ /* FAQ Bereich */
 .div_faq,
 .div_contact {
     display: flex;
@@ -100,18 +104,18 @@ summary::marker {
 
 summary::after {
     content: '';
-    width: 8px;
-    height: 8px;
-    border-right: 2px solid #555;
-    border-bottom: 2px solid #555;
-    transform: rotate(-45deg);
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid #555;
+    border-bottom: 3px solid #555;
+    transform: rotate(45deg);
     transition: transform 0.2s ease;
     flex-shrink: 0;
 }
 
 
 details[open] summary::after {
-    transform: rotate(45deg); 
+    transform: rotate(225deg); 
 }
 
 .details_container > summary {
@@ -139,5 +143,8 @@ details[open] summary::after {
     color: var(--bg-color-text-color);
     font-weight: 500;  
 }
+
+/* Contact Bereicht */
+
 
 /* Footer Section */
