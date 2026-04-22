@@ -47,6 +47,7 @@ h4 {
     font-family: 'Palanquin';
     font-weight: 400;
     line-height: 120%;
+    padding: 0 150px;
 }
 
 .bold-text {
@@ -119,7 +120,12 @@ h4 {
     color: var(--bg-color-green);
     font-weight: 700;
 }
-
+.share-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .share-card {
     display: flex;
     flex-direction: column;
@@ -131,7 +137,6 @@ h4 {
 .share-card>img {
     position: absolute;
     transform: translate(-180px, 20px);
-
 }
 
 .share-card>p {
@@ -142,7 +147,7 @@ h4 {
     text-align: center;
     line-height: 120%;
     transform: translate(0, -30px);
-
+    max-width: 30ch;
 }
 
 .share-button {
@@ -161,8 +166,9 @@ h4 {
     gap: 8px;
 }
 
-.share-button>img {
-    display: block;
+.share-button:focus-within {
+    background-color: var(--bg-color-yellow);
+    transform: translate(-50px, 0);
 }
 
 footer {
