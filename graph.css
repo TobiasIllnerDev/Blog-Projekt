@@ -27,7 +27,7 @@
     color: var(--bg-color-text-color);
     font-size: 18px;
     font-family: 'Arima';
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .author-info {
@@ -60,4 +60,34 @@
     padding-top: 12px;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.post-metadata {
+    gap: 20px;
+    flex-wrap: nowrap;
+    display: flex;
+    padding-top: 40px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 19px;
+}
+
+.date p {
+    padding-top: 6px;
+    white-space: nowrap;
+    line-height: 120%;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.date img {
+      display:block;
+    width: 16px;
+    height: 18px;
 }
