@@ -74,20 +74,23 @@ h4 {
     font-weight: 700;
     font-size: 1.5rem;
 }
+
 .pro-tipp-card {
     position: relative;
     margin: auto;
     width: fit-content;
     list-style-position: inside;
     padding: 90px 150px;
-    
+
 }
+
 .pro-tipp-text {
     font-size: 1.75rem;
     font-family: 'Palanquin';
     font-weight: 700;
     color: var(--bg-color-yellow);
 }
+
 .pro-tipp-button {
     border-radius: 10px;
     background-color: var(--bg-color-green);
@@ -100,6 +103,7 @@ h4 {
     position: absolute;
     transform: translate(-20%, -70%) rotate(-14deg);
 }
+
 .pro-tipp-content {
     background-color: var(--bg-color-pro-tipp);
     border-radius: 30px;
@@ -114,6 +118,51 @@ h4 {
 .pro-tipp-link {
     color: var(--bg-color-green);
     font-weight: 700;
+}
+
+.share-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 90px 150px;
+}
+
+.share-card>img {
+    position: absolute;
+    transform: translate(-180px, 20px);
+
+}
+
+.share-card>p {
+    font-weight: 500;
+    font-family: 'Arima';
+    font-size: 1.5rem;
+    color: var(--bg-color-text-color);
+    text-align: center;
+    line-height: 120%;
+    transform: translate(0, -30px);
+
+}
+
+.share-button {
+    color: var(--bg-color-yellow);
+    background-color: var(--bg-color-green);
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    width: 160px;
+    font-size: 1.5rem;
+    font-family: 'Arima';
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.share-button>img {
+    display: block;
 }
 
 footer {
