@@ -1,8 +1,8 @@
 :root {
-    --bg-color-yellow: rgba(241, 201, 83, 1);
-    --bg-color-green: rgba(78, 164, 135, 1);
-    --bg-color-text-color: rgba(84, 55, 13, 1);
-    --bg-color-white: rgba(255, 255, 255, 1);
+    --bg-color-yellow: rgb(241, 201, 83);
+    --bg-color-green: rgb(78, 164, 135);
+    --bg-color-text-color: rgb(84, 55, 13);
+    --bg-color-white: rgb(255, 255, 255);
     --bg-color-button-color-send: rgba(48, 48, 48, 0.5);
-    --bg-color-p-text: rgba(61, 61, 61, 1);
+    --bg-color-p-text: rgb(61, 61, 61);
 }
