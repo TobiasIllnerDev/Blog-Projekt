@@ -1,32 +1,4 @@
-.main_section {
-    width: 100%;
-    padding: 0px 120px;
-}
-
-.div_faq,
-.div_contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-}
-
-.div_details {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
-}
-
-.details_container {
-    background-color: var(--bg-color-yellow);
-    border-radius: 12px;
-    padding: 5px;
-    gap: 8px;
-    width: 100%;
-}
+/* Header Section */
 
 header {
     position: relative;
@@ -61,16 +33,54 @@ h1 {
 }
 
 .header-text {
-  font-family: 'Palanquin';
-  font-weight: 500;
-  font-size: 1.75rem;
-  color: var(--bg-color-text-color);
+    font-family: 'Palanquin';
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: var(--bg-color-text-color);
 }
 
+/* Main Section */
+
+.main_section {
+    width: 100%;
+    padding: 0px 120px;
+}
+
+.div_faq,
+.div_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.div_faq {
+    gap: 44px;
+    padding-bottom: 20px;
+}
+
+.div_contact {
+    padding-bottom: 20px;
+    gap: 58px;
+}
+
+.div_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
 
 .details_container {
     border-bottom: 1px solid #eee; 
     margin-bottom: 10px;
+    background-color: var(--bg-color-yellow);
+    border-radius: 12px;
+    padding: 5px;
+    gap: 8px;
+    width: 100%;
 }
 
 summary {
@@ -79,7 +89,7 @@ summary {
     align-items: center;
     list-style: none;
     cursor: pointer;
-    padding: 15px;
+    padding: 0px 16px 0px 16px;
 }
 
 
@@ -104,10 +114,33 @@ details[open] summary::after {
     transform: rotate(45deg); 
 }
 
-
-.details_container p {
-    display: block;
-    padding: 0 10px 20px 10px;
-    margin: 0;
-    line-height: 1.6;
+.details_container > summary {
+    font-family: 'Palanquin';
+    color: var(--bg-color-text-color);
+    font-size: 24px;
+    font-weight: bold;
 }
+
+.details_contrainer_p {
+    display: block;
+    gap: 10px;
+    padding: 0px 10px 4px 10px ;
+    border-radius: 5px;
+    background-color: white;   
+
+    background-color: white;
+    height: 44px;
+    display: flex;  
+}
+
+.details_contrainer_p > p {
+    display: block;
+    letter-spacing: 0%;
+    line-height: 120%;
+    font-size: 18px;
+    font-family: 'Palanquin';
+    color: var(--bg-color-text-color);
+    font-weight: 500;  
+}
+
+/* Footer Section */
