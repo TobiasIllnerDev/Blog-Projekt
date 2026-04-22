@@ -25,3 +25,19 @@
     font-weight: 700;
 }
 
+.author-info {
+    background-color: rgba(78, 164, 135, 0.2);
+    color: rgb(12, 16, 59);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 300px;
+    border-radius: 16px;
+}
+
+.headline-card {
+    width: 500px;
+}
+
+.headline-info {
+    display: flex;
+}
