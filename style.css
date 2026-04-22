@@ -115,7 +115,7 @@ summary::after {
 
 
 details[open] summary::after {
-    transform: rotate(225deg); 
+    transform: rotate(-135deg); 
 }
 
 .details_container > summary {
