@@ -167,5 +167,122 @@ details[open] summary::after {
 
 /* Contact Bereicht */
 
+.contact_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 120px;
+}
+
+.contact_title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.contact_title img {
+    width: 28px;
+    height: 28px;
+}
+
+.contact_title h2 {
+    font-size: 52px;
+    font-family: 'Arima';
+    font-weight: bold;
+    color: var(--bg-color-green);
+    margin: 0;
+}
+
+.contact_text {
+    max-width: 100%; 
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Palanquin';
+    line-height: 1.6;
+    color: var(--bg-color-text-color);
+}
+
+.form_row {
+    display: flex;
+    gap: 64px;
+    margin-bottom: 40px;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+.form_group label {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Palanquin';
+    color: var(--bg-color-text-color);
+}
+
+.form_group input {
+    border: none;
+    border-bottom: 2px solid var(--bg-color-text-color);
+    background: transparent;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Palanquin';
+    outline: none;
+    font-weight: 500;
+    line-height: 120%;
+    color: var(--bg-color-green);
+}
+
+.full {
+    margin-bottom: 40px;
+}
+
+.contact_button_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+.checkbox_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--bg-color-text-color);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.checkbox_group span {
+    color: var(--bg-color-green);
+    cursor: pointer;
+    
+}
+
+.send_btn {
+    padding: 12px 40px;
+    border: 2px solid rgba(115, 115, 115, 1);
+    border-radius: 30px;
+    background: transparent;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 120%;
+    font-family: 'Arima';
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.send_btn:hover {
+    background: var(--bg-color-green);
+    color: var(--bg-color-yellow);
+    border-color: var(--bg-color-green);
+}
 
 /* Footer Section */
