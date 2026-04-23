@@ -73,6 +73,10 @@ header {
 .main_section {
     width: 100%;
     padding: 0px 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Highlights Bereich */
@@ -191,13 +195,18 @@ header {
 }
 
 .div_faq {
-    gap: 44px;
+    gap: 12px;
     padding-bottom: 48px;
 }
 
 .div_contact {
     padding-bottom: 126px;
     gap: 58px;
+}
+
+.div_contact > img {
+    height: 40px;
+    width: 40px;
 }
 
 .div_details {
@@ -291,8 +300,8 @@ details[open] summary::after {
 }
 
 .contact_title img {
-    width: 28px;
-    height: 28px;
+    width: 48px;
+    height: 48x;
 }
 
 .contact_title h2 {
