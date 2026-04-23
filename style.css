@@ -156,7 +156,7 @@ details[open] summary::after {
     font-weight: bold;
 }
 
-.details_contrainer_p {
+.details_container_p {
     gap: 10px;
     padding: 0px 10px 4px 10px ;
     border-radius: 5px;
@@ -164,11 +164,11 @@ details[open] summary::after {
     margin: 8px;
 }
 
-details[open] .details_contrainer_p:after {
+details[open] .details_container_p:after {
     transform: rotate(-135deg); 
 }
 
-.details_contrainer_p > p {
+.details_container_p > p {
     display: block;
     letter-spacing: 0%;
     line-height: 120%;
