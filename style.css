@@ -193,6 +193,11 @@ header {
   transition: all 0.3s ease;
 }
 
+.slider_a input[type="radio"]:checked {
+  background-color: rgba(241, 201, 83, 1);
+  border-color: rgba(241, 201, 83, 1)
+}
+
 /* FAQ Bereich */
 .div_faq,
 .div_contact {
