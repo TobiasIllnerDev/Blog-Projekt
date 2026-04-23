@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- Navigation Section -->
-    <nav class="nav-bar flex-row-center">
+    <nav class="nav-bar">
       <img src="assets/icons/logo.svg" alt="Travel Blog Logo" />
       <a href="">Highlights</a>
       <a href="">FAQ</a>
@@ -163,18 +163,25 @@
         </ol>
       </aside>
 
-      <section class="share-section">
-        <div class="share-card">
-          <p>
-            Follow me for more content like this, and share the article with
-            your friends!
-          </p>
-          <img src="assets/img/yellow_arrow.svg" />
-          <button class="share-button">
-            <img src="assets/icons/yellow_share_icon.png" />Share
-          </button>
-        </div>
-      </section>
+        <section class="share-section">
+            <p>Follow me for more content like this, and share the article with your friends!</p>
+            <img src="assets/img/yellow_arrow.svg">
+            <div class="share-card">
+                <input type="checkbox" id="share-toggle" class="share-toggle">
+
+                <label for="share-toggle" class="share-button">
+                    <img class="yellow-share-icon" src="assets/icons/yellow_share_icon.png">
+                    Share
+                </label>
+                <div class="share-button-on-click">
+                    <img src="assets/icons/share.svg">
+                    <div class="share-button-on-click-links">
+                        <a href="https://de.linkedin.com/" target="_blank">LinkedIn</a>
+                        <a href="https://www.whatsapp.com/?lang=de" target="_blank">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer Section -->
