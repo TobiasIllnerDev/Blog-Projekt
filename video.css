@@ -35,12 +35,17 @@
     border-radius: 53px;
 }
 
+/* P elemente */
+
 .main_p_element {
     padding-top: 88px;
 }
 
 .main_list_element {
+    display: flex;
+    flex-direction: column;
     padding: 32px 201px 32px 0px;
+    gap: 32px;
 }
 
 .main_p_element, .main_seceond_p {
@@ -50,4 +55,16 @@
     font-family: 'Palanquin';
     font-weight: 400;
     color: var(--bg-color-p-text);
+}
+
+/* Listen Element */
+
+.list_elements {
+    line-height: 120%;
+    letter-spacing: 0%;
+    font-size: 24px;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    color: var(--bg-color-p-text);
+    
 }

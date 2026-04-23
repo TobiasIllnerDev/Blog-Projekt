@@ -176,7 +176,7 @@ details[open] .details_container_p:after {
     transform: rotate(-135deg); 
 }
 
-.details_contrainer_p > p {
+.details_container_p > p {
     display: block;
     letter-spacing: 0%;
     line-height: 120%;
