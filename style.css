@@ -482,5 +482,7 @@ details[open] summary::after {
 /* 1440px min */
 
 @media screen and (min-width: 1440px) {
-
+    .main_section{
+        padding: 0px max(120px, calc(50% - 720px));
+    } 
 }
