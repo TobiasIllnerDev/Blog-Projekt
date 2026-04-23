@@ -126,6 +126,20 @@ header {
     width: 100%;
 }
 
+:root {
+    interpolate-size: allow-keywords;
+}
+
+.animation_details {
+    overflow: hidden;
+    max-height: 0;
+    transition: height 10s ease;
+}
+
+.details_container[open] .animation_details {
+    height: max-content;/* größer als dein Inhalt */
+}
+
 summary {
     display: flex;
     justify-content: space-between;
@@ -170,10 +184,6 @@ details[open] summary::after {
     border-radius: 5px;
     background-color: white;
     margin: 8px;
-}
-
-details[open] .details_container_p:after {
-    transform: rotate(-135deg); 
 }
 
 .details_container_p > p {
