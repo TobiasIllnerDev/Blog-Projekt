@@ -32,6 +32,7 @@ h4 {
     text-align: center;
     font-weight: 600;
     font-family: 'Arima';
+    padding: 90px 0 50px 0;
 }
 
 .article-heading-green-p {
@@ -55,7 +56,6 @@ h4 {
     font-size: 24px;
     font-family: 'Palanquin';
     font-weight: 600;
-
 }
 
 .nav-bar {
