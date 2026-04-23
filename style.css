@@ -127,7 +127,6 @@ header {
     position: absolute;
     display:flex;
 
-    transition: all 1s ease-in-out;
 }
 
 .slider_a_element{
