@@ -258,17 +258,18 @@ h4 {
     display: flex;
     align-items: center;
     gap: 16px;
+
 }
 
-.share-button:focus {
+.share-toggle:checked~.share-button {
     width: 120px;
 }
 
-.share-toggle:checked ~ .share-button .yellow-share-icon {
+.share-toggle:checked~.share-button .yellow-share-icon {
     display: none;
 }
 
-.share-button:focus~.share-button-on-click {
+.share-toggle:checked~.share-button-on-click {
     display: flex;
 }
 
@@ -277,6 +278,7 @@ h4 {
     gap: 16px;
     align-items: center;
     display: none;
+
 }
 
 .share-button-on-click>img {
