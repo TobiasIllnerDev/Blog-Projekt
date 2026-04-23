@@ -16,6 +16,7 @@
 .main_section {
     padding-left: 120px;
     padding-right: 120px;
+    padding-top: 88px;
 }
 
 /* Video */
@@ -37,18 +38,14 @@
 
 /* P elemente */
 
-.main_p_element {
-    padding-top: 88px;
-}
-
 .main_list_element {
     display: flex;
     flex-direction: column;
-    padding: 32px 201px 32px 0px;
+    padding: 32px 215px 32px 0px;
     gap: 32px;
 }
 
-.main_p_element, .main_seceond_p {
+.main_p_element, .main_seceond_p, .p_element_main {
     line-height: 120%;
     letter-spacing: 0%;
     font-size: 24px;
@@ -59,7 +56,7 @@
 
 /* Listen Element */
 
-.list_elements {
+.list_elements > li {
     line-height: 120%;
     letter-spacing: 0%;
     font-size: 24px;
@@ -67,4 +64,11 @@
     font-weight: 400;
     color: var(--bg-color-p-text);
     
+}
+
+.list_elements > li::marker {
+    font-size: 16px;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    color: var(--bg-color-p-text);
 }
