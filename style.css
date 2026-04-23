@@ -218,20 +218,6 @@ header {
     width: 100%;
 }
 
-:root {
-    interpolate-size: allow-keywords;
-}
-
-.animation_details {
-    overflow: hidden;
-    max-height: 0;
-    transition: height 10s ease;
-}
-
-.details_container[open] .animation_details {
-    height: max-content;/* größer als dein Inhalt */
-}
-
 summary {
     display: flex;
     justify-content: space-between;
@@ -394,10 +380,6 @@ details[open] summary::after {
     display: none;
 }
 
-/* input:invalid {
-    outline: 2px solid red;
-} */
-
 .custom_checkbox {
     display: flex;
     align-items: center;
@@ -440,7 +422,7 @@ details[open] summary::after {
 }
 
 .span_privacy:hover {
-    text-shadow: 0 0 1px currentColor;
+    text-shadow: 1 1 5px currentColor;
 }
 
 .error_text {
@@ -477,3 +459,28 @@ details[open] summary::after {
 }
 
 /* Footer Section */
+
+
+
+/* 0-479px */
+@media screen  and (max-width: 479px) {
+
+}
+
+/* 480px - 767px */
+
+@media screen  and (min-width: 480px) and  (max-width: 767px) {
+
+}
+
+/* 768px - 1280px */
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    
+}
+
+/* 1440px min */
+
+@media screen and (min-width: 1440px) {
+
+}
