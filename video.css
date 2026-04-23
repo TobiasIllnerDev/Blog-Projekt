@@ -1,4 +1,4 @@
-/* Header Section */
+/* Header */
 
 .card-p-element {
     display: flex;
@@ -13,7 +13,7 @@
     color: var(--bg-color-p-text);
 }
  /* Main Section */
-.main_section {
+.video_section {
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 88px;
@@ -96,5 +96,15 @@
 /* 1440px min */
 
 @media screen and (min-width: 1440px) {
+    .nav_div {
+        padding: 0px max(120px, calc(50% - 720px));
+        
+    }
+    .header_section {
+        padding: 0px max(120px, calc(50% - 720px));
+    }
+    .main_section{
+        padding: 0px max(120px, calc(50% - 720px));
+    } 
 
 }
