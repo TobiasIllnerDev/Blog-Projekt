@@ -68,6 +68,16 @@ header {
 }
 /* Highlights Bereich */
 
+.div_highlights {
+    gap: 44px;
+    padding-bottom: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
 
 
  /* FAQ Bereich */
