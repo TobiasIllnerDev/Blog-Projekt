@@ -218,20 +218,6 @@ header {
     width: 100%;
 }
 
-:root {
-    interpolate-size: allow-keywords;
-}
-
-.animation_details {
-    overflow: hidden;
-    max-height: 0;
-    transition: height 10s ease;
-}
-
-.details_container[open] .animation_details {
-    height: max-content;/* größer als dein Inhalt */
-}
-
 summary {
     display: flex;
     justify-content: space-between;
@@ -394,10 +380,6 @@ details[open] summary::after {
     display: none;
 }
 
-/* input:invalid {
-    outline: 2px solid red;
-} */
-
 .custom_checkbox {
     display: flex;
     align-items: center;
@@ -440,7 +422,7 @@ details[open] summary::after {
 }
 
 .span_privacy:hover {
-    text-shadow: 0 0 1px currentColor;
+    text-shadow: 1 1 5px currentColor;
 }
 
 .error_text {
