@@ -95,7 +95,7 @@
 
 .card-p-element {
     display: flex;
-    padding-top: 120px;
+    padding-top: 48px;
     padding-left: 120px;
     padding-right: 120px;
     line-height: 120%;
@@ -104,4 +104,25 @@
     font-family: 'Palanquin';
     font-weight: 400;
     color: var(--bg-color-p-text);
+}
+
+.main_section {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.main_video {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 88px;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.main_video > video {
+    width: 930px;
+    height: 520px;
+    border-radius: 53px;
 }
