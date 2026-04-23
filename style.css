@@ -66,6 +66,7 @@ header {
     width: 100%;
     padding: 0px 120px;
 }
+
 /* Highlights Bereich */
 
 .div_highlights {
@@ -78,6 +79,97 @@ header {
     align-items: center;
     padding-top: 120px;
 }
+
+
+.slidershow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height:100vh;
+}
+
+ .slider_a{
+    background-color: black;
+    position: relative;
+
+    width: 1200px;
+    height: 533px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    overflow: hidden;
+}
+
+.slider_a input{
+    z-index: 2;
+}
+
+.slider_a_wrapper{
+    z-index: 1;
+
+    width:400%;
+    height: 100%;
+
+    position: absolute;
+    display:flex;
+
+    transition: all 1s ease-in-out;
+}
+
+.slider_a_element{
+    width: calc(100% / 4);
+    height: 100%;
+}
+
+.element_one{
+    background-image: url("./assets/img/Insel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.element_two{
+    background-image: url("./assets/img/Venedig.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+        
+
+.element_three{
+    background-image: url("./assets/img/china.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.element_four{
+    background-image: url("./assets/img/china.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider_a input[value="one"]:checked~.slider_a_wrapper{
+    transform: translateX(calc(100% / 4));
+}
+
+.slider_a input[value="two"]:checked~.slider_a_wrapper{
+    transform: translateX(0);
+}
+
+.slider_a input[value="three"]:checked~.slider_a_wrapper{
+    transform: translateX(calc(-100% / 4));
+}
+
+.slider_a input[value="four"]:checked~.slider_a_wrapper{
+    transform: translateX(calc(-200% / 4));
+}
+
 
 
  /* FAQ Bereich */
