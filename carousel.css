@@ -36,7 +36,8 @@
 
 }
 
-.carousel_slider_element:hover~.carousel_slider_element {    transform: perspective(200px) rotateY(-20deg) translateX(20px);
+.carousel_slider_element:hover~.carousel_slider_element {
+    transform: perspective(200px) rotateY(-20deg) translateX(20px);
 }
 
 .carousel_slider_element>img {

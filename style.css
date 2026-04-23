@@ -73,6 +73,10 @@ header {
 .main_section {
     width: 100%;
     padding: 0px 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Highlights Bereich */
@@ -98,6 +102,7 @@ header {
 }
 
  .slider_a{
+    background-color: black;
     position: relative;
 
     width: 1200px;
@@ -190,13 +195,18 @@ header {
 }
 
 .div_faq {
-    gap: 44px;
+    gap: 12px;
     padding-bottom: 48px;
 }
 
 .div_contact {
     padding-bottom: 126px;
     gap: 58px;
+}
+
+.div_contact > img {
+    height: 40px;
+    width: 40px;
 }
 
 .div_details {
@@ -215,20 +225,6 @@ header {
     padding: 5px;
     gap: 8px;
     width: 100%;
-}
-
-:root {
-    interpolate-size: allow-keywords;
-}
-
-.animation_details {
-    overflow: hidden;
-    max-height: 0;
-    transition: height 10s ease;
-}
-
-.details_container[open] .animation_details {
-    height: max-content;/* größer als dein Inhalt */
 }
 
 summary {
@@ -304,8 +300,8 @@ details[open] summary::after {
 }
 
 .contact_title img {
-    width: 28px;
-    height: 28px;
+    width: 48px;
+    height: 48x;
 }
 
 .contact_title h2 {
@@ -393,10 +389,6 @@ details[open] summary::after {
     display: none;
 }
 
-/* input:invalid {
-    outline: 2px solid red;
-} */
-
 .custom_checkbox {
     display: flex;
     align-items: center;
@@ -439,7 +431,7 @@ details[open] summary::after {
 }
 
 .span_privacy:hover {
-    text-shadow: 0 0 1px currentColor;
+    text-shadow: 1 1 5px currentColor;
 }
 
 .error_text {
@@ -476,3 +468,30 @@ details[open] summary::after {
 }
 
 /* Footer Section */
+
+
+
+/* 0-479px */
+@media screen  and (max-width: 479px) {
+
+}
+
+/* 480px - 767px */
+
+@media screen  and (min-width: 480px) and  (max-width: 767px) {
+
+}
+
+/* 768px - 1280px */
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    
+}
+
+/* 1440px min */
+
+@media screen and (min-width: 1440px) {
+    .main_section{
+        padding: 0px max(120px, calc(50% - 720px));
+    } 
+}

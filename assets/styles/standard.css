@@ -16,6 +16,8 @@ h2 {
     font-size: 52px;
     font-family: 'Arima';
     font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
 h3 {
@@ -32,6 +34,9 @@ h4 {
     text-align: center;
     font-weight: 600;
     font-family: 'Arima';
+    padding: 90px 0 50px 0;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
 .article-heading-green-p {
@@ -47,6 +52,7 @@ h4 {
     font-family: 'Palanquin';
     font-weight: 400;
     line-height: 120%;
+    letter-spacing: 0%;
     padding: 0 150px;
 }
 
@@ -55,7 +61,6 @@ h4 {
     font-size: 24px;
     font-family: 'Palanquin';
     font-weight: 600;
-
 }
 
 .nav-bar {
@@ -91,6 +96,7 @@ h4 {
     font-size: 28px;
     font-family: 'Palanquin';
     font-weight: 400;
+    line-height: 120%;
 }
 
 .post-metadata {
@@ -161,6 +167,14 @@ h4 {
     padding-top: 12px;
     padding-left: 16px;
     padding-right: 16px;
+}
+
+.card-body>p {
+    font-family: 'Palanquin';
+    font-weight: 400;
+    color: var(--bg-color-p-text);
+    font-size: 1rem;
+    line-height: 100%;
 }
 
 .pro-tipp-card {
@@ -258,17 +272,18 @@ h4 {
     display: flex;
     align-items: center;
     gap: 16px;
+
 }
 
-.share-button:focus {
+.share-toggle:checked~.share-button {
     width: 120px;
 }
 
-.share-toggle:checked ~ .share-button .yellow-share-icon {
+.share-toggle:checked~.share-button .yellow-share-icon {
     display: none;
 }
 
-.share-button:focus~.share-button-on-click {
+.share-toggle:checked~.share-button-on-click {
     display: flex;
 }
 
@@ -277,6 +292,7 @@ h4 {
     gap: 16px;
     align-items: center;
     display: none;
+
 }
 
 .share-button-on-click>img {
@@ -334,3 +350,24 @@ footer a {
     text-decoration: none;
     font-size: 1rem;
 }
+
+/* 0-479px */
+@media screen  and (max-width: 479px) {
+
+}
+
+/* 480px - 767px */
+
+@media screen  and (min-width: 480px) and  (max-width: 767px) {
+
+}
+
+/* 768px - 1280px */
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    
+}
+
+/* 1440px min */
+
+@media screen and (min-width: 1440px) {}
