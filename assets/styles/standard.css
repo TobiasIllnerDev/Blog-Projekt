@@ -168,7 +168,7 @@ h4 {
     margin: auto;
     width: fit-content;
     list-style-position: inside;
-    padding: 90px 150px;
+    padding: 120px 150px 0 150px;
 
 }
 
@@ -212,13 +212,14 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 90px 150px;
 }
 .share-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    padding: 90px 150px;
+    padding-top: 60px;
 }
 
 .share-card>img {

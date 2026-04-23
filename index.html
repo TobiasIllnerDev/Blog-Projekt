@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
+    <title>Travel Blog</title>
     <link rel="icon" type="image/x-icon" href="assets/icons/logo.svg" />
 
     <link rel="stylesheet" href="./assets/styles/standard.css" />
@@ -146,18 +146,18 @@
               <div class="form_row">
                 <div class="form_group">
                   <label>What’s your name?</label>
-                  <input type="text" />
+                  <input type="text" required />
                 </div>
 
                 <div class="form_group">
                   <label>What’s your email?</label>
-                  <input type="email" />
+                  <input type="email" required />
                 </div>
               </div>
 
               <div class="form_group full">
                 <label>How can I help?</label>
-                <input type="text" />
+                <input type="text" required />
               </div>
 
               <div class="contact_button_section">
@@ -165,8 +165,9 @@
                   <input type="checkbox" id="privacy" required />
                   <label for="privacy" class="custom_checkbox">
                     <span class="box"></span>
-                    I’ve read the <span>privacy policy</span> and agree to the
-                    processing of my data as outlined.
+                    I’ve read the
+                    <span class="span_privacy">privacy policy</span> and agree
+                    to the processing of my data as outlined.
                   </label>
                   <p class="error_text">Please accept the privacy policy.</p>
                 </div>
