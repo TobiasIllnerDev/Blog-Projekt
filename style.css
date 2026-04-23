@@ -180,7 +180,18 @@ header {
     transform: translateX(calc(-100% * 0.375));
 }
 
-
+.slider_a input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 28px;
+  height: 28px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  margin: 44px 12px;
+  transition: all 0.3s ease;
+}
 
 /* FAQ Bereich */
 .div_faq,
