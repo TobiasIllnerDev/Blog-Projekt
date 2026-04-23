@@ -98,7 +98,6 @@ header {
 }
 
  .slider_a{
-    background-color: black;
     position: relative;
 
     width: 1200px;
@@ -163,19 +162,19 @@ header {
 }
 
 .slider_a input[value="one"]:checked~.slider_a_wrapper{
-    transform: translateX(calc(100% / 4));
+    transform: translateX(calc(100% * 0.375));
 }
 
 .slider_a input[value="two"]:checked~.slider_a_wrapper{
-    transform: translateX(0);
+    transform: translateX(calc(100% * 0.125));
 }
 
 .slider_a input[value="three"]:checked~.slider_a_wrapper{
-    transform: translateX(calc(-100% / 4));
+    transform: translateX(calc(-100% * 0.125));
 }
 
 .slider_a input[value="four"]:checked~.slider_a_wrapper{
-    transform: translateX(calc(-200% / 4));
+    transform: translateX(calc(-100% * 0.375));
 }
 
 
