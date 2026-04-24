@@ -80,7 +80,6 @@ header {
 }
 
 /* Highlights Bereich */
-
 .div_highlights {
     gap: 44px;
     padding-bottom: 48px;
@@ -126,12 +125,46 @@ header {
 
     position: absolute;
     display:flex;
+}
 
+.glass-box {
+    position: absolute;
+    top: 54px;      
+    left: 38px;     
+    width: 881px; 
+    padding: 16px 24px;
+    text-align: left;
+    color: white;
+
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(8px);           
+    -webkit-backdrop-filter: blur(8px);
+    
+    border-left: 1px solid rgba(255, 255, 255, 0.7); 
+    border-right: 1px solid rgba(255, 255, 255, 0.7); 
+}
+
+.glass-box p:nth-child(1) {
+    font-family: 'Palanquin Dark';
+    color: white;
+    font-size: 48px;
+    margin: 0 0 8px 0;
+    line-height: 1.1;
+    font-weight: bold;
+}
+
+.glass-box p {
+    font-family: 'Palanquin';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.10;
+    margin: 0;
 }
 
 .slider_a_element{
     width: calc(100% / 4);
     height: 100%;
+    position: relative; 
 }
 
 .element_one{
