@@ -77,8 +77,6 @@
 }
 
 
-
-
 /* 0-479px */
 @media screen  and (max-width: 479px) {
     
@@ -150,6 +148,34 @@
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
     
+        .main_video {
+        padding: 44px 0px;        
+    }
+
+    .main_video > video{
+        width: 100%;
+        height: auto;
+        border: 30px;
+    }
+
+    .video_section {
+        padding: 42px 40px;
+    }
+
+    .card-p-element {
+        padding-top: 42px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .main_list_element {
+        gap: 32px;
+        padding: 42px 0px;
+    }
+    footer {
+        padding: 40px 42px;
+    }
+
 }
 
 /* 1440px min */
