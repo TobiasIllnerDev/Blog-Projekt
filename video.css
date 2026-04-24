@@ -104,7 +104,7 @@
 
     .main_list_element {
         gap: 32px;
-        padding: 24px 15px;
+        padding: 24px 0px;
     }
     footer {
         padding: 30px 24px;
