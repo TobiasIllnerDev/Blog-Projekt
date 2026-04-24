@@ -207,6 +207,11 @@ h4 {
     align-items: center;
     position: absolute;
     transform: translate(-20%, -70%) rotate(-14deg);
+    gap: 10px;
+}
+
+.pro-tipp-button> img {
+    transform: rotate(11deg) translateY(-5px);
 }
 
 .pro-tipp-content {
@@ -223,6 +228,7 @@ h4 {
 .pro-tipp-link {
     color: var(--bg-color-green);
     font-weight: 700;
+    text-decoration: none;
 }
 
 .share-section {
@@ -477,7 +483,7 @@ footer a {
 
 /* 480px - 767px */
 
-@media screen  and (min-width: 480px) and  (max-width: 767px) {
+@media screen and (max-width: 767px) {
     h1 {
         font-size: 52px;
     }
@@ -499,7 +505,7 @@ footer a {
 
 /* 768px - 1280px */
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
     h1 {
         font-size: 56px;
     }
