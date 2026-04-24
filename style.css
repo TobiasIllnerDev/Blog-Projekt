@@ -4,19 +4,20 @@ header {
     position: relative;
     height: 500px;
     width: 100%;
-    padding: 0 150px;
 }
 
 .yellow-box {
     position: absolute;
     z-index: 2;
-    left: 150px;
+    left: 0;
+    animation: yellow-box 2s ease-out forwards;
 }
 
 .header-img {
     position: absolute;
     top: 0;
-    right: 150px;
+    right: 0;
+    transform: translateX(100px);
     z-index: 1;
 }
 
@@ -26,6 +27,14 @@ header {
     font-size: 1.75rem;
     color: var(--bg-color-text-color);
     line-height: 120%;
+}
+
+.header-text-content {
+    max-width: 25%;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    z-index: 3;
 }
 
 @keyframes rotating-circle {
@@ -39,35 +48,51 @@ header {
 }
 
 .circle-animation {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    top: 60%;
+    left: 33%;
+    z-index: 10;
+}
+
+.circle-text {
     position: absolute;
     width: 160px;
     height: auto;
     animation: rotating-circle 10s infinite linear;
     z-index: 4;
-    top: 300px;
-    left: 600px;
-
 }
 
 .flag-fixed {
     position: absolute;
     width: 50px;
-    height: auto;
-    /* transform-origin: 50% 50%; */
     z-index: 10;
-    top: 356px;
-    left: 655px;
-
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
-.header-text-content {
-    width: 20%;
-    position: absolute;
-    left: 250px;
-    top: 150px;
-    z-index: 3;
+@keyframes yellow-box {
+  0% {
+    transform: scaleX(15);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
+
+@media screen and (max-width:1279px) {
+    .header-img {
+        transform: translate(150px);
+    }
+
+    .yellow-box {
+        right: 40%;
+    }
+
+}
 /* Main Section */
 
 .main_section {
