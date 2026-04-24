@@ -78,8 +78,11 @@ h4 {
     font-family: 'Arima';
     font-weight: 700;
     font-size: 1.5rem;
+    transition: color 255ms ease-in-out;
 }
-
+ .nav-bar>a:hover {
+    color: var(--bg-color-yellow);
+ }
 .headline-info {
     padding-top: 120px;
     padding-left: 120px;
@@ -369,4 +372,8 @@ footer a {
 
 /* 1440px min */
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+    .nav-bar {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);    }
+}
