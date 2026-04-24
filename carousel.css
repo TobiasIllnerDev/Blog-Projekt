@@ -28,6 +28,8 @@
     transform: perspective(200px) rotateY(20deg) translateX(-20px);
     transform-origin: 50% 50%;
     transition: all 255ms ease-in-out;
+
+
 }
 
 .carousel_slider_element:hover {
@@ -45,4 +47,32 @@
     height: 100%;
     object-fit: cover;
     border-radius: 16px;
+}
+
+@media screen and (max-width: 1279px) {
+    .carousel_slider_element {
+        height: 300px;
+    }
+
+    .carousel_slider {
+        padding: 100px 150px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carousel_slider_element {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .carousel_slider_element {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel_slider_element {
+        height: 180px;
+    }
 }
