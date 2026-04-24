@@ -353,6 +353,8 @@ footer p {
     color: var(--bg-color-white);
     font-family: 'Palanquin';
     font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 120%;
 }
 
 footer a {
@@ -465,7 +467,7 @@ footer a {
     }
 
     .copyright-content p {
-        font-size: 14px; /* oder 12px wenn du es wie im Bild willst */
+        font-size: 16px; 
     }
 
     .social-media-icons {
