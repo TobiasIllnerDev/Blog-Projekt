@@ -11,11 +11,18 @@
     padding: 0 64px;
 }
 
-.carousel_slider {
+.carousel-wrapper {
+    display: flex;
+    padding: 150px 200px;
+}
+
+.carousel-controls {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 150px 200px;
+}
+
+.carousel-controls {
+    display: none;
 }
 
 .carousel_slider_element {
@@ -31,14 +38,11 @@
     transform: perspective(200px) rotateY(20deg) translateX(-20px);
     transform-origin: 50% 50%;
     transition: all 255ms ease-in-out;
-
-
 }
 
 .carousel_slider_element:hover {
     z-index: 2;
     transform: perspective(250px) rotateY(0deg) translateX(0px) scaleX(1.3) scaleY(1.3);
-
 }
 
 .carousel_slider_element:hover~.carousel_slider_element {
@@ -52,6 +56,36 @@
     border-radius: 16px;
 }
 
+.carousel-slider input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: rgba(78, 164, 135, 0.3);
+    cursor: pointer;
+    margin: 44px 12px;
+    transition: all 0.3s ease;
+}
+
+.carousel-slider input[type="radio"]:checked {
+    background-color: var(--bg-color-green);
+    width: 40px;
+    height: 28px;
+    border-radius: 20px;
+}
+
+.carousel-slider:has(#slide1:checked) .carousel_slider_element:nth-of-type(1),
+.carousel-slider:has(#slide2:checked) .carousel_slider_element:nth-of-type(2),
+.carousel-slider:has(#slide3:checked) .carousel_slider_element:nth-of-type(3),
+.carousel-slider:has(#slide4:checked) .carousel_slider_element:nth-of-type(4),
+.carousel-slider:has(#slide5:checked) .carousel_slider_element:nth-of-type(5) {
+
+    z-index: 2;
+    transform: perspective(250px) rotateY(0deg) scale(1.3);
+}
+
+
 /* FÜR STANDARD CSS */
 
 .mobile-arrow {
@@ -59,6 +93,8 @@
     position: absolute;
     transform: translate(-190px, 30px);
 }
+
+/* ENDE STANDARD CSS */
 
 @media screen and (max-width: 1279px) {
     .carousel_slider_element {
@@ -94,4 +130,12 @@
     .desktop-arrow {
         display: none;
     }
+
+    .carousel-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
 }
