@@ -78,6 +78,32 @@
 
 /* 0-479px */
 @media screen  and (max-width: 479px) {
+    
+    .main_video {
+        padding: 24px 15px;
+        
+    }
+
+    .main_video > video{
+        padding: 24px 15px;
+        width: 345px;
+        height: 190px;
+    }
+
+    .video_section {
+        padding: 24px 15px;
+    }
+
+    .card-p-element {
+        padding-top: 24px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main_list_element {
+        gap: 32px;
+        padding: 24px 15px;
+    }
 
 }
 
