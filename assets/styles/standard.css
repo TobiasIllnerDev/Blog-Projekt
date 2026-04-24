@@ -78,8 +78,11 @@ h4 {
     font-family: 'Arima';
     font-weight: 700;
     font-size: 1.5rem;
+    transition: color 255ms ease-in-out;
 }
-
+ .nav-bar>a:hover {
+    color: var(--bg-color-yellow);
+ }
 .headline-info {
     padding-top: 120px;
     padding-left: 120px;
