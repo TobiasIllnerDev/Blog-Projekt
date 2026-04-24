@@ -32,8 +32,8 @@ header {
 .header-text-content {
     max-width: 25%;
     position: absolute;
-    left: 10%;
-    top: 35%;
+    left: 8%;
+    top: 30%;
     z-index: 3;
 }
 
