@@ -86,16 +86,6 @@
 }
 
 
-/* FÜR STANDARD CSS */
-
-.mobile-arrow {
-    display: none;
-    position: absolute;
-    transform: translate(-190px, 30px);
-}
-
-/* ENDE STANDARD CSS */
-
 @media screen and (max-width: 1279px) {
     .carousel_slider_element {
         height: 300px;
@@ -121,14 +111,6 @@
 @media screen and (max-width: 768px) {
     .carousel_slider_element {
         height: 180px;
-    }
-
-    .mobile-arrow {
-        display: block;
-    }
-
-    .desktop-arrow {
-        display: none;
     }
 
     .carousel-controls {
