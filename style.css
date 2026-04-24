@@ -550,6 +550,55 @@ details[open] summary::after {
 /* 0-479px */
 @media screen  and (max-width: 479px) {
 
+    .contact_title h2 {
+        font-size: 40px;
+    }
+
+    .contact_title img {
+        width: 40px;
+        height: 40px;  
+    }
+    .div_faq,
+    .div_contact{
+        padding-top: 46px;
+        padding-bottom: 32px;
+    }
+
+    .div_details {
+        width: 300px;
+        gap: 10px;
+    }
+
+    .div_highlights > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact_header {
+        flex-direction: column;
+    }
+
+    .contact_text {
+        display: none;
+    }
+
+    .form_row {
+        flex-direction: column;
+    }
+
+    .contact_header {
+        padding-top: 40px;
+    }
+
+    .details_container > summary {
+        font-size: 16px;
+        gap: 5px;
+    }
+
+    .details_container_p > p {
+        font-size: 16px;
+    }
+
 }
 
 /* 480px - 767px */
