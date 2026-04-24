@@ -23,17 +23,20 @@
 .main_video {
     width: 100%;
     display: flex;
+    justify-content: center; 
     align-items: center;
-    flex-direction: column;
     padding-top: 88px;
-    padding-left: 135px;
-    padding-right: 135px;
+    padding-left: 0; 
+    padding-right: 0;
 }
 
 .main_video > video {
-    width: 930px;
-    height: 520px;
+    width: 100%;       
+    max-width: 1200px; 
+    height: auto;      
+    aspect-ratio: 16 / 9; 
     border-radius: 53px;
+    object-fit: cover; 
 }
 
 /* P elemente */
@@ -80,14 +83,13 @@
 @media screen  and (max-width: 479px) {
     
     .main_video {
-        padding: 24px 15px;
-        
+        padding: 24px 0px;        
     }
 
     .main_video > video{
-        padding: 24px 15px;
-        width: 345px;
-        height: 190px;
+        width: 100%;
+        height: auto;
+        border: 30px;
     }
 
     .video_section {
@@ -102,7 +104,7 @@
 
     .main_list_element {
         gap: 32px;
-        padding: 24px 15px;
+        padding: 24px 0px;
     }
     footer {
         padding: 30px 24px;
