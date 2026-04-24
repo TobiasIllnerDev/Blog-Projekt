@@ -372,4 +372,8 @@ footer a {
 
 /* 1440px min */
 
-@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 1440px) {
+    .nav-bar {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);    }
+}
