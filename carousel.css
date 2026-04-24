@@ -4,10 +4,12 @@
 }
 
 .ordered-list>p {
-    text-align: center;
-    padding-bottom: 36px;
+    padding: 0 0 36px 16px;
 }
 
+.ordered-list>ol {
+    padding: 0 64px;
+}
 .carousel_slider {
     display: flex;
     justify-content: center;
