@@ -104,7 +104,9 @@
         gap: 32px;
         padding: 24px 15px;
     }
-
+    footer {
+        padding: 30px 24px;
+    }
 }
 
 /* 480px - 767px */
