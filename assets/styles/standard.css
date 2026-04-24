@@ -253,7 +253,7 @@ h4 {
     padding-top: 30px;
 }
 
-.share-section>img {
+.desktop-arrow {
     position: absolute;
     transform: translate(-190px, 10px);
 }
