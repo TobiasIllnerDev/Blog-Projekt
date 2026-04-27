@@ -126,19 +126,33 @@
 .rain-periods-mobile {
     display:none;
 }
+
+.rain-periods-desktop{
+    display: block;
+}
     
 }
 
 /* 767px-1339px */
 @media screen and (max-width: 1339px) {
+.rain-periods-mobile {
+    display:none;
+}
 
+.rain-periods-desktop{
+    display: block;
+}
 }
 
 /* 480px-768px */
 @media screen and (max-width: 768px) {
 
-.rain-periods-desktop {
+.rain-periods-mobile {
     display:none;
+}
+
+.rain-periods-desktop {
+    display:block;
     width: 345px;
     height: 183px;
 }
@@ -164,6 +178,10 @@
 
 .rain-periods-desktop {
     display:none;
+}
+
+.rain-periods-mobile {
+    display:block;
 }
 
 .rain-periods-section > img {
