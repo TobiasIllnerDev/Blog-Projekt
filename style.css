@@ -571,6 +571,131 @@ details[open] summary::after {
 /* 0-479px */
 @media screen  and (max-width: 479px) {
 
+/* Slidershow mobile*/
+.slidershow {
+    padding: 0 20px; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider_a {
+    position: relative;
+    width: 280px;
+    height: 445px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .slider_a_wrapper {
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 1;
+  }
+
+  .slider_a_element {
+    width: 25%;
+    height: 100%;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .element_one {
+    background: url("./assets/img/beach_mobile.png") center/cover no-repeat;
+  }
+
+  .element_two {
+    background: url("./assets/img/copenhagen_mobile.png") center/cover no-repeat;
+  }
+
+  .element_three {
+    background: url("./assets/img/pattaya_mobile.png") center/cover no-repeat;
+  }
+
+  .element_four {
+    background: url("./assets/img/japan_mobile.png") center/cover no-repeat;
+  }
+
+
+  .glass-box {
+    position: absolute;
+    width: 243px;
+    top: 93px;
+    left: 14px;
+    right: 24px;
+    padding: 14px 16px;
+    color: white;
+    z-index: 2;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    border-left: 1px solid rgba(255, 255, 255, 0.7);
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+  }
+
+  .glass-box p:nth-child(1) {
+    font-family: 'Palanquin Dark';
+    font-size: 18px;
+    line-height: 1.1;
+    font-weight: bold;
+    margin: 0 0 6px;
+  }
+
+  .glass-box p {
+    font-family: 'Palanquin';
+    font-size: 11px;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+ 
+  .slider_a input {
+    z-index: 3;
+  }
+
+  .slider_a input[value="one"]:checked ~ .slider_a_wrapper {
+    transform: translateX(0%);
+  }
+
+  .slider_a input[value="two"]:checked ~ .slider_a_wrapper {
+    transform: translateX(-25%);
+  }
+
+  .slider_a input[value="three"]:checked ~ .slider_a_wrapper {
+    transform: translateX(-50%);
+  }
+
+  .slider_a input[value="four"]:checked ~ .slider_a_wrapper {
+    transform: translateX(-75%);
+  }
+
+
+  .slider_a input[type="radio"] {
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: white;
+    margin: 0 11px 28px;
+    cursor: pointer;
+  }
+
+  .slider_a input[type="radio"]:checked {
+    width: 40px;
+    border-radius: 20px;
+    background: rgba(241, 201, 83, 1);
+  }
+
+/* contact title*/
+
     .contact_title h2 {
         font-size: 40px;
     }
