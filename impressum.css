@@ -17,11 +17,11 @@ footer {
     display: flex;
     justify-content: center;
     padding: 120px 20px;
-    text-align: center; /* 🔥 alles mittig */
+    text-align: center; 
 }
 
 .imprint_container {
-    max-width: 600px; /* etwas schmaler = schöner */
+    max-width: 600px; 
     width: 100%;
 }
 
@@ -45,13 +45,13 @@ footer {
 .imprint_content {
     display: flex;
     flex-direction: column;
-    gap: 40px; /* mehr Abstand = cleaner Look */
+    gap: 40px; 
 }
 
 .imprint_block {
     display: flex;
     flex-direction: column;
-    align-items: center; /* 🔥 Inhalte zentrieren */
+    align-items: center;
 }
 
 .imprint_block h2 {
@@ -84,7 +84,6 @@ footer {
 
 @media screen and (max-width: 767px) {
     footer {
-    margin-top: auto;
     margin-bottom: 0;
     }
 }
