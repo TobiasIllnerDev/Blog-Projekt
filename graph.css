@@ -1,14 +1,3 @@
-.graph-text-one {
-    color: var(--bg-color-p-text);
-    font-size: 24px;
-    font-family: 'Palanquin';
-    font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
-    padding-left:120px;
-    padding-right: 120px;
-    padding-top: 48px;
-}
 
 .text-pattaya {
     color: var(--bg-color-p-text);
@@ -39,16 +28,14 @@
     font-size: 32px;
     line-height: 120%;
     text-align: center;
-    padding-top: 88px;
 }
 
-.text-activitites-accomodation {
-    color: var(--bg-color-p-text);
-    font-size: 24px;
-    font-family: 'Palanquin';
-    font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
+.rain-periods-mobile {
+    display:none;
+}
+
+.rain-periods-desktop{
+    display: block;
 }
 
 .rain-periods-section {
@@ -58,17 +45,19 @@
 }
 
 .rain-periods-section > img {
-    width: 640px;
-    height: 436px;
     padding-top: 24px;
+    padding-bottom: 88px;
 }
 
 .activities_accomodation-section {
+    height: 920px;
     display:flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 80px;
+    padding-top: 88px;
+    padding-bottom: 88px;
 }
 
 .beach-activities-article {
@@ -82,7 +71,8 @@
 }
 
 .beach-activities-article > img {
-    padding-top: 24px;
+    width: 519px;
+    height: 471px;
 }
 
 .activities-accomodation-article {
@@ -96,11 +86,32 @@
 }
 
 .text-activitites-accomodation {
-    padding: 24px 0px;
+    padding-top: 24px;
+    padding-bottom: 90px;
+
+    color: var(--bg-color-p-text);
+    font-size: 24px;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+} 
+
+.text-beach-activities {
+    padding-top: 24px;
+    padding-bottom: 40px;
+
+    color: var(--bg-color-p-text);
+    font-size: 24px;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
 } 
 
 .activities-accomodation-article > img {
-    padding-top: 78px;
+    width: 519px;
+    height: 471px;
 }
 
    
@@ -133,8 +144,10 @@
     
 }
 
-/* 767px-1339px */
-@media screen and (max-width: 1339px) {
+
+
+@media screen and (max-width: 1200px) {
+
 .rain-periods-mobile {
     display:none;
 }
@@ -142,51 +155,164 @@
 .rain-periods-desktop{
     display: block;
 }
+
+.activities_accomodation-section {
+   height:100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 80px;
+   padding-top: 88px;
+   padding-bottom: 0px;
 }
 
-/* 480px-768px */
-@media screen and (max-width: 768px) {
+.beach-activities-article {
+    width: 750px;
+    padding-left: 0px;
+}
+
+.activities-accomodation-article {
+    width: 750px;
+    padding-right:0px;
+}
+
+.text-beach-activities {
+    font-size: 1.4rem;
+}
+
+.text-activitites-accomodation {
+    font-size: 1.4rem;
+    padding-bottom: 40px;
+}
+
+}
+
+@media screen and (max-width: 992px) {
 
 .rain-periods-mobile {
     display:none;
 }
 
-.rain-periods-desktop {
-    display:block;
-    width: 345px;
-    height: 183px;
+.rain-periods-desktop{
+    display: block;
 }
 
 .activities_accomodation-section {
-    flex-direction: column;
+   height:100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 80px;
+   padding-top: 88px;
+   /*padding-bottom: 88px;*/
 }
 
 .beach-activities-article {
     width: 650px;
-    height: 627px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
 }
 
 .activities-accomodation-article {
     width: 650px;
-    height: 627px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-right:0px;
 }
 
-.activities-accomodation-article > img {
-    width: 350px;
+.text-beach-activities {
+    font-size: 1.3rem;
+}
+
+.text-activitites-accomodation {
+    font-size: 1.3rem;
+}
+
+}
+
+
+/* 480px-768px */
+@media screen and (max-width: 768px) {
+
+.rain-periods-mobile {
+    display: block;
+}
+
+.rain-periods-desktop {
+    display:none;
+}
+
+.activities_accomodation-section {
+    height: 1200px;
+    flex-direction: column;
+}
+
+.beach-activities-article {
+    height: 530px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.text-beach-activities {
+    width: 100%;
+    color: var(--bg-color-p-text);
+    font-size: 18px;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.text-activitites-accomodation {
+    width: 100%;
+    color: var(--bg-color-p-text);
+    font-size: 18px;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.activities-accomodation-article {
+    height: 530px;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .beach-activities-article > img {
-    width: 350px;
+    display: flex;
+    justify-content: center;
+    width: 343px;
+    height: 311px;
 }
 
 
-.activities_accomodation-section {
-    gap: 0px;
+.activities-accomodation-article > img {
+    display: flex;
+    justify-content: center;
+    width: 343px;
+    height: 311px;
 }
+
+.beach-activities-article {
+        width: 100%;
+}
+
+.activities-accomodation-article {
+    width: 100%;
+}
+
+.rain-periods-section > img {
+        /* width: 345px; */
+        /* height: 183px; */
+        /* padding-top: 24px; */
+    }
+
+    .rain-periods-section > img {
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+
 
 }
 
@@ -200,12 +326,41 @@
 
 .rain-periods-mobile {
     display:block;
-}
-
-.rain-periods-section > img {
-    width: 345px;
-    height: 183px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding-top: 24px;
-
 }
+
+.beach-activities-article {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.activities-accomodation-article {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.beach-activities-article > img {
+    width: 300px;
+    height: 273.97px;
+}
+
+.activities-accomodation-article > img {
+    width: 300px;
+    height: 273.97px;
+    padding-bottom: 32px;
+}
+
+.text-beach-activities {
+    font-size: 16px;
+}
+
+.text-activitites-accomodation {
+    font-size: 16px;
+}
+
 }
