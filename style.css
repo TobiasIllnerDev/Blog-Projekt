@@ -566,7 +566,7 @@ details[open] summary::after {
 
 @media screen and (max-width: 992px) {
 
-.hide-on-mobile_highlights {
+.hide-on-mobile-highlights {
     display: none;
 }
 
