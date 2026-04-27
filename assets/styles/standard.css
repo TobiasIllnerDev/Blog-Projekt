@@ -384,6 +384,11 @@ footer a {
         padding-left: max(calc(50% - 720px), 160px);
         padding-right: max(calc(50% - 720px), 160px);
     }
+
+    .global_p {
+        padding-left: max(calc(50% - 720px), 120px);
+        padding-right: max(calc(50% - 720px), 120px);
+    }
 }
 
 /* 992px-1279px */
