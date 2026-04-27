@@ -124,6 +124,14 @@
 }
 
 @media screen and (max-width: 768px) {
+    .carousel-slider:has(#slide1:checked) .carousel-wrapper {
+        transform: translateX(0%);
+    }
+
+    .carousel-slider:has(#slide2:checked) .carousel-wrapper {
+        transform: translateX(calc(-1 * (33.33vw)));
+    }
+
     .carousel_slider_element {
         height: 180px;
         width: calc(33.33vw - 16px);
