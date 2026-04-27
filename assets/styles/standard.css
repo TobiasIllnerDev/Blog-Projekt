@@ -98,6 +98,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     gap: 26px;
+    padding-bottom: 48px;
 }
 
 .subheadline {
