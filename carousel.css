@@ -100,6 +100,10 @@
     .carousel_slider_element {
         height: 250px;
     }
+
+    .ordered-list {
+        padding: 90px 80px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -118,6 +122,20 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+
+    /* .mobile-carousel-wrapper {
+     width: 250px;
+     overflow: hidden;
+     padding: 0;
+
+    }
+    .carousel-wrapper {
+        padding: 0;
+    } */
+
+    .ordered-list {
+        padding: 50px 80px;
     }
 
 }
