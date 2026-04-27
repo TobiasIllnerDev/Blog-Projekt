@@ -167,9 +167,14 @@
 
 .activities-accomodation-article {
     width: 650px;
-
-
 }
+
+.activities-accomodation-article > img {
+    width: 350px;
+}
+
+.beach-activities-article > img {
+    width: 350px;
 }
 
 
