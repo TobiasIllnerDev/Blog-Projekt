@@ -699,7 +699,7 @@ details[open] summary::after {
 
 @media screen and (max-width: 768px) {
 
-.hide-on-mobile_highlights {
+.hide-on-mobile-highlights {
     display: none;
 }
 
@@ -833,7 +833,7 @@ details[open] summary::after {
 /* 0-479px */
 @media screen  and (max-width: 479px) {
 
-.hide-on-mobile_highlights {
+.hide-on-mobile-highlights {
     display: none;
 }
 
