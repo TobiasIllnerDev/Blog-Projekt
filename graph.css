@@ -163,10 +163,16 @@
 
 .beach-activities-article {
     width: 650px;
+    height: 627px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .activities-accomodation-article {
     width: 650px;
+    height: 627px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .activities-accomodation-article > img {
@@ -175,6 +181,13 @@
 
 .beach-activities-article > img {
     width: 350px;
+}
+
+
+.activities_accomodation-section {
+    gap: 0px;
+}
+
 }
 
 
