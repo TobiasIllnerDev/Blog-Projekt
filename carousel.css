@@ -102,7 +102,7 @@
     }
 
     .ordered-list {
-        padding: 90px 80px;
+        padding: 80px;
     }
 }
 
@@ -135,7 +135,25 @@
     } */
 
     .ordered-list {
-        padding: 50px 80px;
+        padding: 50px 7%;
     }
 
+    .ordered-list>ol {
+        padding: 0 56px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .ordered-list {
+        padding: 40px 16px;
+    }
+
+    .ordered-list>ol {
+        padding: 0 40px;
+    }
+
+    .ordered-list>p {
+        padding: 0 0 24px 0;
+    }
 }
