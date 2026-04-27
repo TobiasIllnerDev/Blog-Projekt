@@ -558,9 +558,10 @@ details[open] summary::after {
         transform: translateX(-200px);
     }
 
-    .hide-on-mobile_highlights {
-        display: none;
-    }
+
+.hide-on-mobile-highlights {
+    display: none;
+}
 
     /* Slidershow mobile*/
     .slidershow {
