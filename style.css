@@ -571,6 +571,10 @@ details[open] summary::after {
 /* 0-479px */
 @media screen  and (max-width: 479px) {
 
+.hide-on-mobile_highlights {
+    display: none;
+}
+
 /* Slidershow mobile*/
 .slidershow {
     padding: 0 20px; 
