@@ -104,6 +104,10 @@
     .ordered-list {
         padding: 80px;
     }
+
+    .carousel-wrapper {
+        padding: 120px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -115,6 +119,18 @@
 @media screen and (max-width: 768px) {
     .carousel_slider_element {
         height: 180px;
+        width: calc(33.33vw - 16px);
+    }
+
+    .carousel-slider {
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+
+    .carousel-wrapper {
+        padding: 100px;
+        width: max-content;
     }
 
     .carousel-controls {
@@ -123,16 +139,6 @@
         align-items: center;
         width: 100%;
     }
-
-    /* .mobile-carousel-wrapper {
-     width: 250px;
-     overflow: hidden;
-     padding: 0;
-
-    }
-    .carousel-wrapper {
-        padding: 0;
-    } */
 
     .ordered-list {
         padding: 50px 7%;
