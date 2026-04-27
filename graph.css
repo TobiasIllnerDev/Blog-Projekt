@@ -144,7 +144,17 @@
     
 }
 
+@media screen and (max-width: 1339px) {
 
+    
+.text-beach-activities {
+    font-size: 1.4rem;
+}
+
+.text-activitites-accomodation {
+    font-size: 1.4rem;
+}
+}
 
 @media screen and (max-width: 1200px) {
 
