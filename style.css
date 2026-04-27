@@ -5,8 +5,8 @@ header {
     height: 500px;
     width: 100%;
     background-image: url("assets/img/header_foto.png");
-    background-size: cover;        
-    background-position: center top; 
+    background-size: cover;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 
@@ -558,10 +558,9 @@ details[open] summary::after {
         transform: translateX(-200px);
     }
 
-
-.hide-on-mobile-highlights {
-    display: none;
-}
+    .hide-on-mobile-highlights {
+        display: none;
+    }
 
     /* Slidershow mobile*/
     .slidershow {
