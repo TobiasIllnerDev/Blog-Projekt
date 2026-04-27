@@ -91,6 +91,9 @@
         padding-left: max(calc(50% - 720px), 150px);
         padding-right: max(calc(50% - 720px), 150px);
     }
+    .carousel-wrapper {
+        padding: 150px max(calc(55% - 720px), 250px);
+    }
 }
 
 @media screen and (max-width: 1279px) {
