@@ -1,0 +1,104 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.imprint {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 120px 20px;
+    text-align: center; /* 🔥 alles mittig */
+}
+
+.imprint_container {
+    max-width: 600px; /* etwas schmaler = schöner */
+    width: 100%;
+}
+
+.imprint_header {
+    margin-bottom: 48px;
+}
+
+.imprint_header h1 {
+    font-size: 48px;
+    font-family: 'Arima';
+    color: var(--bg-color-green);
+    margin-bottom: 8px;
+}
+
+.imprint_header p {
+    font-size: 18px;
+    font-family: 'Palanquin';
+    color: var(--bg-color-text-color);
+}
+
+.imprint_content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* mehr Abstand = cleaner Look */
+}
+
+.imprint_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 🔥 Inhalte zentrieren */
+}
+
+.imprint_block h2 {
+    font-size: 24px;
+    font-family: 'Palanquin';
+    margin-bottom: 10px;
+    color: var(--bg-color-text-color);
+}
+
+.imprint_block p,
+.imprint_block address {
+    font-size: 18px;
+    font-family: 'Palanquin';
+    line-height: 1.6;
+    color: var(--bg-color-text-color);
+}
+
+.imprint_block address {
+    font-style: normal;
+}
+
+.imprint_block a {
+    color: var(--bg-color-green);
+    text-decoration: none;
+}
+
+.imprint_block a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 479px) {
+
+    .imprint {
+        padding: 60px 20px;
+    }
+
+    .imprint_header h1 {
+        font-size: 32px;
+    }
+
+    .imprint_block h2 {
+        font-size: 20px;
+    }
+
+    .imprint_block p,
+    .imprint_block address {
+        font-size: 16px;
+    }
+
+}
