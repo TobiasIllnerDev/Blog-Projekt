@@ -251,6 +251,7 @@
 
 .activities_accomodation-section {
     height: 1200px;
+    display: flex;
     flex-direction: column;
 }
 
@@ -310,12 +311,6 @@
 .activities-accomodation-article {
     width: 100%;
 }
-
-.rain-periods-section > img {
-        /* width: 345px; */
-        /* height: 183px; */
-        /* padding-top: 24px; */
-    }
 
     .rain-periods-section > img {
     padding-top: 24px;
