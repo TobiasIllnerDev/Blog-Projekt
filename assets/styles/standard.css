@@ -87,6 +87,7 @@ h4 {
 
 .nav-bottom {
     display: none;
+    z-index: 10;
 }
 
 .headline-info {
@@ -578,6 +579,7 @@ footer a {
         left: 0;
         width: 100%;
         height: 88px;
+        z-index: 10;
 
         display: flex;
         justify-content: space-around;
@@ -736,6 +738,7 @@ footer a {
         left: 0;
         width: 100%;
         height: 88px;
+        z-index: 10;
 
         display: flex;
         justify-content: space-around;
