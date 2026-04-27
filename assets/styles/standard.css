@@ -803,11 +803,17 @@ footer a {
     .pro-tipp-button {
         transform: translate(0%, -90%) rotate(-10deg);
     }
+
     .share-section {
         padding: 32px 15px;
     }
+
     .share-card {
         padding-top: 50px;
+    }
+
+    .share-section>p {
+        font-size: 1.125rem;
     }
 
     .mobile-arrow {
