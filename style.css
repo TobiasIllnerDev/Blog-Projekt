@@ -33,6 +33,7 @@ header {
     font-size: 1.75rem;
     color: var(--bg-color-text-color);
     line-height: 120%;
+    max-width: 300px;
 }
 
 .header-text-content {
@@ -548,6 +549,25 @@ details[open] summary::after {
     .main_section {
         padding: 0px max(120px, calc(50% - 720px));
     }
+
+    header {
+        background-size: 1440px auto;
+        padding-left: calc(50% - 720px);
+        padding-right: calc(50% - 720px);
+    }
+
+    .yellow-box-wrapper {
+        left: auto;
+    }
+
+    .header-text-content {
+        left: calc(5% + calc(50% - 720px));
+    }
+
+    .circle-animation {
+        left: calc(30% + calc(50% - 720px));
+    }
+
 }
 
 
@@ -723,6 +743,7 @@ details[open] summary::after {
     .main_section {
         padding: 0px 100px;
     }
+
     .div_faq,
     .div_contact {
         padding-top: 46px;
@@ -1213,7 +1234,8 @@ details[open] summary::after {
     }
 
     .custom_checkbox {
-        max-width: 320px; /* kannst du anpassen */
+        max-width: 320px;
+        /* kannst du anpassen */
     }
 
     .box {
