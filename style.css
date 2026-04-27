@@ -571,7 +571,7 @@ details[open] summary::after {
 }
 
 
-/* 992px-1279px */
+/* 993px-1279px */
 
 @media screen and (max-width: 1279px) {
     .yellow-box-wrapper {
@@ -583,8 +583,70 @@ details[open] summary::after {
         gap: 10px;
     }
 
+     .slider_a {
+        width: 90%;
+        height: 480px;
+    }
+
+    .glass-box {
+        width: 70%;
+        left: 5%;
+        top: 40px;
+        padding: 12px 20px;
+    }
+
+    .glass-box p:nth-child(1) {
+        font-size: 36px;
+    }
+
+    .glass-box p {
+        font-size: 22px;
+    }
+
+    .slider_a input[type="radio"] {
+        width: 28px;
+        height: 28px;
+        margin: 32px 8px;
+    }
+
+    .slider_a input[type="radio"]:checked {
+        width: 40px;
+        height: 28px;
+    }
+
+.element_one {
+    border-radius: 0 120px 0 0;
+    background-image: url(./assets/img/Insel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.element_two {
+    border-radius: 0 120px 0 0;
+    background-image: url(./assets/img/Venedig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.element_three {
+    border-radius: 0 120px 0 0;
+    background-image: url(./assets/img/china.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.element_four {
+    border-radius: 0 120px 0 0;
+    background-image: url(./assets/img/japan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
 
 /* 769px - 992px */
 
@@ -641,18 +703,22 @@ details[open] summary::after {
     }
 
     .element_one {
+        border-radius: 0;
         background: url("./assets/img/beach_mobile.png") center/cover no-repeat;
     }
 
     .element_two {
+        border-radius: 0;
         background: url("./assets/img/copenhagen_mobile.png") center/cover no-repeat;
     }
 
     .element_three {
+        border-radius: 0;
         background: url("./assets/img/pattaya_mobile.png") center/cover no-repeat;
     }
 
     .element_four {
+        border-radius: 0;
         background: url("./assets/img/japan_mobile.png") center/cover no-repeat;
     }
 
@@ -860,18 +926,22 @@ details[open] summary::after {
     }
 
     .element_one {
+        border-radius: 0;
         background: url("./assets/img/beach_mobile.png") center/cover no-repeat;
     }
 
     .element_two {
+        border-radius: 0;
         background: url("./assets/img/copenhagen_mobile.png") center/cover no-repeat;
     }
 
     .element_three {
+        border-radius: 0;
         background: url("./assets/img/pattaya_mobile.png") center/cover no-repeat;
     }
 
     .element_four {
+        border-radius: 0;
         background: url("./assets/img/japan_mobile.png") center/cover no-repeat;
     }
 
@@ -1040,6 +1110,27 @@ details[open] summary::after {
         background-position: 70% 50%;
     }
 
+      .element_one {
+        border-radius: 0;
+        background: url("./assets/img/beach_mobile.png") center/cover no-repeat;
+    }
+
+    .element_two {
+        border-radius: 0;
+        background: url("./assets/img/copenhagen_mobile.png") center/cover no-repeat;
+    }
+
+    .element_three {
+        border-radius: 0;
+        background: url("./assets/img/pattaya_mobile.png") center/cover no-repeat;
+    }
+
+    .element_four {
+        border-radius: 0;
+        background: url("./assets/img/japan_mobile.png") center/cover no-repeat;
+    }
+
+
 }
 
 /* 0-479px */
@@ -1085,18 +1176,22 @@ details[open] summary::after {
     }
 
     .element_one {
+        border-radius: 0;
         background: url("./assets/img/beach_mobile.png") center/cover no-repeat;
     }
 
     .element_two {
+        border-radius: 0;
         background: url("./assets/img/copenhagen_mobile.png") center/cover no-repeat;
     }
 
     .element_three {
+        border-radius: 0;
         background: url("./assets/img/pattaya_mobile.png") center/cover no-repeat;
     }
 
     .element_four {
+        border-radius: 0;
         background: url("./assets/img/japan_mobile.png") center/cover no-repeat;
     }
 
