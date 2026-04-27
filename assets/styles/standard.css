@@ -496,6 +496,116 @@ footer a {
 
 }
 
+
+/* 1280px-1339px */
+@media screen and (max-width: 1339px) {
+
+    .article-heading-green-p {
+    color: var(--bg-color-green);
+    font-size: 40px;
+    font-family: 'Palanquin';
+    font-weight: 600;
+}
+
+.headline-info {
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+}
+
+.subheadline {
+    color: var(--bg-color-text-color);
+    font-size: 28px;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.post-metadata {
+    gap: 20px;
+    flex-wrap: nowrap;
+    display: flex;
+    padding-top: 40px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 19px;
+}
+
+.date p {
+    padding-top: 6px;
+    white-space: nowrap;
+    line-height: 120%;
+    font-family: 'Palanquin';
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+.date img {
+    display: block;
+}
+
+.author-info {
+    background-color: rgba(78, 164, 135, 0.2);
+    color: rgb(12, 16, 59);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 272px;
+    height: 420px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-header p {
+    text-align: center;
+}
+
+.card-header img {
+    padding: 16px 76px;
+}
+
+.author-name {
+    color: var(--bg-color-text-color);
+    font-size: 18px;
+    font-family: 'Arima';
+    font-weight: 700;
+}
+
+.author-subheadline {
+    color: var(--bg-color-text-color);
+    font-size: 18px;
+    font-family: 'Arima';
+    font-weight: 400;
+}
+
+.card-body {
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.card-body>p {
+    font-family: 'Palanquin';
+    font-weight: 400;
+    color: var(--bg-color-p-text);
+    font-size: 1rem;
+    line-height: 100%;
+}
+
+    }
+
+
 /* 992px-1279px */
 
 @media screen and (max-width: 1279px) {
@@ -874,6 +984,9 @@ h3 {
     }
 
     .headline-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         flex-wrap: wrap;
         padding-top: 32px;
         padding-left: 30px;
@@ -898,7 +1011,6 @@ h3 {
     }
 
     .author-info {
-        width: 100%;
         text-align: center;
     }
 
@@ -1058,7 +1170,6 @@ h3 {
     }
 
     .author-info {
-        width: 100%;
         text-align: center;
     }
 
