@@ -14,6 +14,7 @@
 .carousel-wrapper {
     display: flex;
     padding: 150px 200px;
+    justify-content: center;
 }
 
 .carousel-controls {
