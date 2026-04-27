@@ -11,7 +11,7 @@ header {
 }
 
 .yellow-box {
-    animation: yellow-box 2s ease-out forwards;
+    animation: yellow-box 1s ease-out forwards;
 }
 
 .yellow-box-mobile {
@@ -39,7 +39,7 @@ header {
     max-width: 25%;
     position: absolute;
     left: 8%;
-    top: 30%;
+    top: 25%;
     z-index: 3;
 }
 
@@ -568,6 +568,14 @@ details[open] summary::after {
         transform: translateX(-100px);
     }
 
+    .circle-animation {
+        left: 37%;
+    }
+
+    .header-text {
+        font-size: 1.6rem;
+    }
+
     .hide-on-mobile-highlights {
         display: none;
     }
@@ -702,6 +710,22 @@ details[open] summary::after {
 @media screen and (max-width: 768px) {
     .yellow-box-wrapper {
         transform: translateX(-180px);
+    }
+
+    header {
+        background-position: 60% 50%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-text {
+        font-size: 1.5rem;
+    }
+
+    .circle-animation {
+        left: 40%;
     }
 
     .hide-on-mobile-highlights {
@@ -855,6 +879,10 @@ details[open] summary::after {
     .circle-animation {
         top: -35%;
         left: 15%;
+    }
+
+    header {
+        background-position: 70% 50%;
     }
 }
 
