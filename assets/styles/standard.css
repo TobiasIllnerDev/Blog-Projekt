@@ -660,6 +660,7 @@ footer a {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
+        margin-bottom: 88px;
     }
 
     .footer-text-content {
@@ -858,8 +859,8 @@ footer a {
     }
 
     .social-media-icons img {
-        height: 24px;
-        width: 24px;
+        height: 20px;
+        width: 20px;
     }
 
 
