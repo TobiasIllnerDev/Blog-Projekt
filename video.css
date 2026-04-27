@@ -96,6 +96,12 @@
         padding: 30px 24px;
         margin-bottom: 88px;
     }
+    .list_elements > li {
+        font-size: 1rem;
+    }
+    .list_elements > li::marker {
+        font-size: 10px;
+    }
 }
 
 /* 480px - 767px */
@@ -130,13 +136,20 @@
         padding: 30px 32px;
         margin-bottom: 88px;
     }
+
+    .list_elements > li {
+        font-size: 20px;
+    }
+    .list_elements > li::marker {
+        font-size: 14px;
+    }
 }
 
 /* 768px - 1280px */
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
     
-        .main_video {
+    .main_video {
         padding: 44px 0px;        
     }
 
@@ -164,6 +177,13 @@
         padding: 40px 42px;
     }
 
+    .list_elements > li {
+        font-size: 24px;
+    }
+
+    .list_elements > li::marker {
+        font-size: 16px;
+    }
 }
 
 /* 1440px min */
