@@ -118,3 +118,81 @@
     flex-direction: column;
     align-items: center;
 }
+
+/* 1440px min */
+
+@media screen and (min-width: 1440px) {
+
+.rain-periods-mobile {
+    display:none;
+}
+
+.rain-periods-desktop{
+    display: block;
+}
+    
+}
+
+/* 767px-1339px */
+@media screen and (max-width: 1339px) {
+.rain-periods-mobile {
+    display:none;
+}
+
+.rain-periods-desktop{
+    display: block;
+}
+}
+
+/* 480px-768px */
+@media screen and (max-width: 768px) {
+
+.rain-periods-mobile {
+    display:none;
+}
+
+.rain-periods-desktop {
+    display:block;
+    width: 345px;
+    height: 183px;
+}
+
+.activities_accomodation-section {
+    flex-direction: column;
+}
+
+.beach-activities-article {
+    width: 650px;
+}
+
+.activities-accomodation-article {
+    width: 650px;
+}
+
+.activities-accomodation-article > img {
+    width: 350px;
+}
+
+.beach-activities-article > img {
+    width: 350px;
+}
+
+
+/* 0-479px */
+@media screen  and (max-width: 479px) {
+
+.rain-periods-desktop {
+    display:none;
+}
+
+.rain-periods-mobile {
+    display:block;
+}
+
+.rain-periods-section > img {
+    width: 345px;
+    height: 183px;
+    padding-top: 24px;
+
+}
+}
