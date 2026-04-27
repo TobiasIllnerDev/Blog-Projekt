@@ -564,7 +564,7 @@ details[open] summary::after {
 
 /* 769px - 992px */
 
-@media screen and (max-width: 992pxpx) {
+@media screen and (max-width: 992px) {
 
 .hide-on-mobile_highlights {
     display: none;
@@ -697,7 +697,7 @@ details[open] summary::after {
 
 /* 480px - 768px */
 
-@media screen and (max-width: 768pxpx) {
+@media screen and (max-width: 768px) {
 
 .hide-on-mobile_highlights {
     display: none;
