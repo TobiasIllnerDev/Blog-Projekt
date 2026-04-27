@@ -555,15 +555,23 @@ details[open] summary::after {
 }
 
 
-/* 480px - 767px */
+/* 992px-1279px */
 
-@media screen  and (min-width: 480px) and  (max-width: 767px) {
+@media screen and (max-width: 1279px) {
 
 }
 
-/* 768px - 1280px */
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+/* 769px - 992px */
+
+@media screen and (max-width: 992pxpx) {
+    
+}
+
+
+/* 480px - 768px */
+
+@media screen and (max-width: 768pxpx) {
     
 }
 
