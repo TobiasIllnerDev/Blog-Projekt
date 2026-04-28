@@ -3,7 +3,6 @@ body {
     overflow-x: clip;
 }
 
-
 header {
     position: relative;
     height: 500px;
@@ -578,7 +577,6 @@ details[open] summary::after {
     }
 
 }
-
 
 /* 993px-1279px */
 
