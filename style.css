@@ -137,6 +137,7 @@ header {
 
 .slider_a input {
     z-index: 2;
+    cursor: pointer;
 }
 
 .slider_a_wrapper {
@@ -584,7 +585,7 @@ details[open] summary::after {
         gap: 10px;
     }
 
-     .slider_a {
+    .slider_a {
         width: 90%;
         height: 480px;
     }
