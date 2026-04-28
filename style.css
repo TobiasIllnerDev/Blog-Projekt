@@ -808,7 +808,8 @@ details[open] summary::after {
     }
 
     .contact_form {
-        width: 100%;
+        width: 90%;
+        padding-left: 40px;
     }
 
     .main_section {
