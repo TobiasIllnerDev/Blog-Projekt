@@ -91,6 +91,7 @@
         padding-left: max(calc(50% - 720px), 150px);
         padding-right: max(calc(50% - 720px), 150px);
     }
+
     .carousel-wrapper {
         padding: 150px max(calc(55% - 720px), 250px);
     }
@@ -133,23 +134,24 @@
 
 @media screen and (max-width: 768px) {
     .carousel-slider:has(#slide1:checked) .carousel-wrapper {
-        transform: translateX(0%);
+        transform: translateX(calc(0.5 * (33.33vw)));
+
     }
 
     .carousel-slider:has(#slide2:checked) .carousel-wrapper {
-        transform: translateX(calc(-1 * (33.33vw)));
+        transform: translateX(calc(-0.33 * (33.33vw)));
     }
 
     .carousel-slider:has(#slide3:checked) .carousel-wrapper {
-        transform: translateX(calc(-2 * (33.33vw)));
+        transform: translateX(calc(-1.33 * (33.33vw)));
     }
 
     .carousel-slider:has(#slide4:checked) .carousel-wrapper {
-        transform: translateX(calc(-3 * (33.33vw)));
+        transform: translateX(calc(-2.33 * (33.33vw)));
     }
 
     .carousel-slider:has(#slide5:checked) .carousel-wrapper {
-        transform: translateX(calc(-4 * (33.33vw)));
+        transform: translateX(calc(-3.33 * (33.33vw)));
     }
 
     .carousel_slider_element {
