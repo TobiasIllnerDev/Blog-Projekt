@@ -1,4 +1,8 @@
 /* Header Section */
+body {
+    overflow-x: clip;
+}
+
 
 header {
     position: relative;
@@ -95,6 +99,7 @@ header {
 .main_section {
     width: 100%;
     padding: 0px 120px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -137,6 +142,7 @@ header {
 
 .slider_a input {
     z-index: 2;
+    cursor: pointer;
 }
 
 .slider_a_wrapper {
@@ -269,6 +275,7 @@ header {
 .div_faq {
     gap: 12px;
     padding-bottom: 48px;
+    padding-top: 60px;
 }
 
 .div_contact {
@@ -549,6 +556,7 @@ details[open] summary::after {
 @media screen and (min-width: 1440px) {
     .main_section {
         padding: 0px max(120px, calc(50% - 720px));
+        padding-top: 60px;
     }
 
     header {
@@ -584,7 +592,11 @@ details[open] summary::after {
         gap: 10px;
     }
 
-     .slider_a {
+    .div_faq {
+        padding-top: 60px;
+    }
+
+    .slider_a {
         width: 90%;
         height: 480px;
     }
@@ -823,6 +835,10 @@ details[open] summary::after {
         padding-bottom: 32px;
     }
 
+    .div_faq {
+        padding-top: 60px;
+    }
+
     .div_details {
         width: 100%;
         gap: 10px;
@@ -1041,6 +1057,10 @@ details[open] summary::after {
         padding-bottom: 32px;
     }
 
+    .div_faq {
+        padding-top: 60px;
+    }
+
     .div_details {
         width: 100%;
         gap: 10px;
@@ -1098,8 +1118,8 @@ details[open] summary::after {
 
 @media screen and (max-width: 576px) {
 
-    .main_section {
-        padding-top: 30px;
+    .div_faq {
+        padding-top: 60px;
     }
 
 

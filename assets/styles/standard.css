@@ -69,6 +69,7 @@ h4 {
     justify-content: flex-start;
     align-items: center;
     gap: 100px;
+    cursor: pointer;
     color: var(--bg-color-white);
 }
 
@@ -86,6 +87,7 @@ h4 {
 }
 
 .nav-bottom {
+    cursor: pointer;
     display: none;
     z-index: 10;
 }
@@ -392,6 +394,11 @@ footer a {
     }
     .pro-tipp-content {
     padding: 26px 20px 24px 24px;
+    }
+
+    footer {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);
     }
 
 }
