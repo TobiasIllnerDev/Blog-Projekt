@@ -45,6 +45,9 @@
 .video_section .global_p {
     padding: 0;
 }
+.card-p-element .global_p {
+    padding: 0;
+}
 /* Listen Element */
 
 .list_elements > li {
