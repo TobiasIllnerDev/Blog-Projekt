@@ -95,6 +95,7 @@ header {
 .main_section {
     width: 100%;
     padding: 0px 120px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -270,6 +271,7 @@ header {
 .div_faq {
     gap: 12px;
     padding-bottom: 48px;
+    padding-top: 60px;
 }
 
 .div_contact {
@@ -550,6 +552,7 @@ details[open] summary::after {
 @media screen and (min-width: 1440px) {
     .main_section {
         padding: 0px max(120px, calc(50% - 720px));
+        padding-top: 60px;
     }
 
     header {
@@ -583,6 +586,10 @@ details[open] summary::after {
     .div_details {
         width: 100%;
         gap: 10px;
+    }
+
+    .div_faq {
+        padding-top: 60px;
     }
 
     .slider_a {
@@ -824,6 +831,10 @@ details[open] summary::after {
         padding-bottom: 32px;
     }
 
+    .div_faq {
+        padding-top: 60px;
+    }
+
     .div_details {
         width: 100%;
         gap: 10px;
@@ -1042,6 +1053,10 @@ details[open] summary::after {
         padding-bottom: 32px;
     }
 
+    .div_faq {
+        padding-top: 60px;
+    }
+
     .div_details {
         width: 100%;
         gap: 10px;
@@ -1099,8 +1114,8 @@ details[open] summary::after {
 
 @media screen and (max-width: 576px) {
 
-    .main_section {
-        padding-top: 30px;
+    .div_faq {
+        padding-top: 60px;
     }
 
 
