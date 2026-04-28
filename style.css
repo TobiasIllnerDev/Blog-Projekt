@@ -497,6 +497,7 @@ details[open] summary::after {
 }
 
 .span_privacy {
+    text-decoration: none;
     color: var(--bg-color-green);
     cursor: pointer;
     display: inline-block;
@@ -812,6 +813,7 @@ details[open] summary::after {
 
     .main_section {
         padding: 0px 100px;
+        padding-top: 50px;
     }
 
     .div_faq,
@@ -1085,11 +1087,21 @@ details[open] summary::after {
     .checkbox_text {
         display: block;
     }
+
+    .main_section {
+        padding-top: 50px;
+    }
 }
 
 /* 479-575px */
 
 @media screen and (max-width: 576px) {
+
+    .main_section {
+        padding-top: 30px;
+    }
+
+
     .header-text-content {
         display: none;
     }
@@ -1114,7 +1126,7 @@ details[open] summary::after {
         background-position: 70% 50%;
     }
 
-      .element_one {
+    .element_one {
         border-radius: 0;
         background: url("./assets/img/beach_mobile.png") center/cover no-repeat;
     }
@@ -1139,6 +1151,10 @@ details[open] summary::after {
 
 /* 0-479px */
 @media screen and (max-width: 479px) {
+
+    .main_section {
+        padding-top: 20px;
+    }
 
     .hide-on-mobile-highlights {
         display: none;

@@ -858,7 +858,7 @@ h3 {
         align-items: center;
     }
 
-    .nav-bar>a {
+    .a_tag_nav {
         display: none;
     }
 
@@ -1021,7 +1021,7 @@ h3 {
         align-items: center;
     }
 
-    .nav-bar>a {
+    .a_tag_nav {
         display: none;
     }
 
