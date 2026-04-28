@@ -394,6 +394,11 @@ footer a {
     padding: 26px 20px 24px 24px;
     }
 
+    footer {
+        padding-left: max(calc(50% - 720px), 160px);
+        padding-right: max(calc(50% - 720px), 160px);
+    }
+
 }
 
 
