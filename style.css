@@ -614,6 +614,10 @@ details[open] summary::after {
         height: 28px;
     }
 
+.slider_a input[value="one"]:checked~.slider_a_wrapper {
+    transform: translateX(calc(100% * 0.3755));
+}
+
 .element_one {
     border-radius: 0 120px 0 0;
     background-image: url(./assets/img/Insel.png);
