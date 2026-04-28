@@ -497,6 +497,7 @@ details[open] summary::after {
 }
 
 .span_privacy {
+    text-decoration: none;
     color: var(--bg-color-green);
     cursor: pointer;
     display: inline-block;
