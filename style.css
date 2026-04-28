@@ -1,4 +1,8 @@
 /* Header Section */
+body {
+    overflow-x: clip;
+}
+
 
 header {
     position: relative;
